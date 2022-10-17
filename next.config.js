@@ -6,6 +6,7 @@ const nextConfig = {
     path: "",
   },
   basePath: "/portfolio-w-tailwind-nextjs",
+  
   assetPrefix: "/portfolio-w-tailwind-nextjs",
   swcMinify: true,
 };
