@@ -53,7 +53,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:w-96 md:h-96">
-            <Image  src={`${prefix}/my-cartoon-2.png`} layout="fill" objectFit="cover" alt="hero"/>
+            <img  src={`${prefix}/my-cartoon-2.png`} layout="fill" objectFit="cover" alt="hero"/>
           </div>
         </section>
 
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div className="md:flex gap-10">
           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image  src={`${prefix}/design.png`}  width={100} height={100}/>
+            <img  src={`${prefix}/design.png`}  width={100} height={100}/>
             <h3>Beautiful Designs</h3>
             <p>Creating elegant design suited for your needs following core
                 design theory.</p>
@@ -82,7 +82,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 ">Indesign</p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 ">
-            <Image  src={`${prefix}/consulting.png`}  width={100} height={100}/>
+            <img  src={`${prefix}/consulting.png`}  width={100} height={100}/>
             <h3>Beautiful Designs</h3>
             <p>Creating elegant design suited for your needs following core
                 design theory.</p>
@@ -93,7 +93,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 ">
-            <Image  src={`${prefix}/code.png`}  width={100} height={100}/>
+            <img  src={`${prefix}/code.png`}  width={100} height={100}/>
             <h3>Beautiful Designs</h3>
             <p>Creating elegant design suited for your needs following core
                 design theory.</p>
@@ -118,12 +118,12 @@ export default function Home() {
             </p>  
           </div>
           <div className="flex flex-col gap-10 py-10 md:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1"> <Image src={`${prefix}/web1.png`}  className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
-            <div className="basis-1/3 flex-1"> <Image src={`${prefix}/web2.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
-            <div className="basis-1/3 flex-1"> <Image src={`${prefix}/web3.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
-            <div className="basis-1/3 flex-1"> <Image src={`${prefix}/web4.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
-            <div className="basis-1/3 flex-1"> <Image src={`${prefix}/web5.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
-            <div className="basis-1/3 flex-1"> <Image src={`${prefix}/web6.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
+            <div className="basis-1/3 flex-1"> <img src={`${prefix}/web1.png`}  className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
+            <div className="basis-1/3 flex-1"> <img src={`${prefix}/web2.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
+            <div className="basis-1/3 flex-1"> <img src={`${prefix}/web3.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
+            <div className="basis-1/3 flex-1"> <img src={`${prefix}/web4.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
+            <div className="basis-1/3 flex-1"> <img src={`${prefix}/web5.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
+            <div className="basis-1/3 flex-1"> <img src={`${prefix}/web6.png`} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div>
           </div>
         </section>
       </main>
