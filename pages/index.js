@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { useState } from "react";
 import Image from "next/image";
+import { prefix } from "../utils/prefix";
 import kml from "../public/my-cartoon-2.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
@@ -62,7 +63,9 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:w-96 md:h-96">
-            <Image src={kml} layout="fill" objectFit="cover" />
+            <Image  src={`${prefix}/my-cartoon-2.png`} layout="fill" objectFit="cover" alt="hero"/>
+            <img src={`${prefix}/my-cartoon-2.png`} alt='some alt text' />
+
           </div>
         </section>
 
